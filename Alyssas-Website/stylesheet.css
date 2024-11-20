@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    color:#104c8d;
+    position: relative;
+    border-bottom: 1.5px solid #587598;
+   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.nav ul {
+
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: flex;
+}
+
+.nav ul li {
+
+    list-style: none;
+}
+
+.nav ul li a {
+
+    position: relative;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #104c8d;
+}
+
+.picnav ul {
+
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display: flex;
+}
+
+.picnav ul li {
+
+    list-style: none;
+}
+
+.picnav ul li a {
+
+    position: relative;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #104c8d;
+}
+
+.content {
+    background-color: #ffffff;
+    border-top: 2px solid #ffffff;
+    position: absolute;
+    top: 35%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pics {
+    flex-direction: row;
+    padding: 10px;
+}
+
+.para {
+    flex-direction: row;
+    padding: 10px
+}
+
+.projectsr1 ul {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.projectsr2 ul {
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
+.projectsr3 ul {
+    position: absolute;
+    top: 680px;
+    left: 10px;
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
